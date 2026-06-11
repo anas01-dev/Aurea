@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Auréa — Handcrafted Luxury Bracelets</title>
+<meta name="description" content="Auréa: handcrafted bracelets in gold, rose, and obsidian. Bespoke custom orders made to order." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<script type="importmap">
+{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }
+</script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">AU<span class="gold">RÉ</span>A</a>
+    <nav>
+      <a href="#collection">Collection</a>
+      <a href="#craft">Craft</a>
+      <a href="#custom">Custom</a>
+      <a href="#order">Order</a>
+    </nav>
+    <a href="#order" class="btn btn-gold btn-sm">Commission</a>
+  </div>
+</header>
+
+<section id="top" class="hero">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">Maison since 2009</p>
+      <h1>Bracelets,<br /><em class="gold">reimagined.</em></h1>
+      <p class="lead">Each piece is forged by hand in our Florence atelier — a quiet conversation between gold, stone, and the wrist it adorns.</p>
+      <div class="hero-cta">
+        <a href="#collection" class="btn btn-gold">Explore Collection</a>
+        <a href="#custom" class="btn btn-ghost">Design Yours</a>
+      </div>
+      <div class="stats">
+        <div><div class="stat-n gold">15+</div><div class="stat-l">Years of craft</div></div>
+        <div><div class="stat-n gold">2.4k</div><div class="stat-l">Pieces made</div></div>
+        <div><div class="stat-n gold">100%</div><div class="stat-l">Handcrafted</div></div>
+      </div>
+    </div>
+    <div class="hero-3d">
+      <div class="glow"></div>
+      <div class="scene" data-variant="gold"></div>
+    </div>
+  </div>
+</section>
+
+<section id="collection" class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">The Collection</p>
+        <h2>Three signatures.</h2>
+      </div>
+      <p class="muted hide-mobile">Move your cursor across each piece to feel the light shift.</p>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <div class="card-3d"><div class="glow soft"></div><div class="scene" data-variant="gold"></div></div>
+        <div class="card-body">
+          <div class="card-row"><h3>Solstice</h3><span class="gold price">40TND</span></div>
+          <p class="muted small">24k gilded beads · woven silk cord</p>
+          <button class="btn btn-ghost full" data-order="Solstice">Order this piece</button>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-3d"><div class="glow soft rose"></div><div class="scene" data-variant="rose"></div></div>
+        <div class="card-body">
+          <div class="card-row"><h3>Ember</h3><span class="gold price">45TND</span></div>
+          <p class="muted small">Rose quartz · brushed bronze charm</p>
+          <button class="btn btn-ghost full" data-order="Ember">Order this piece</button>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-3d"><div class="glow soft"></div><div class="scene" data-variant="obsidian"></div></div>
+        <div class="card-body">
+          <div class="card-row"><h3>Eclipse</h3><span class="gold price">45TND</span></div>
+          <p class="muted small">Black obsidian · gold accent stones</p>
+          <button class="btn btn-ghost full" data-order="Eclipse">Order this piece</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="craft" class="section band">
+  <div class="container craft-grid">
+    <div>
+      <p class="eyebrow">The Atelier</p>
+      <h2>Slow craft, <em class="gold">patient fire.</em></h2>
+      <p class="muted">Every Auréa bracelet begins as raw ingot. It passes through eleven pairs of hands before it ever meets yours — drawn, hammered, polished, set.</p>
+      <p class="muted">We make no more than forty pieces a month. Each is numbered, signed, and accompanied by a hand-stitched leather case.</p>
+      <div class="steps">
+        <div><div class="gold n">01</div><div class="t">Sourced</div><div class="muted small">Ethically mined stones from Jaipur.</div></div>
+        <div><div class="gold n">02</div><div class="t">Forged</div><div class="muted small">Hand-hammered over three days.</div></div>
+        <div><div class="gold n">03</div><div class="t">Set</div><div class="muted small">Each bead seated under 10x glass.</div></div>
+        <div><div class="gold n">04</div><div class="t">Signed</div><div class="muted small">Numbered, stamped with maker's mark.</div></div>
+      </div>
+    </div>
+    <div class="hero-3d tall">
+      <div class="glow rose"></div>
+      <div class="scene" data-variant="rose"></div>
+    </div>
+  </div>
+</section>
+
+<section id="custom" class="section center">
+  <div class="container narrow">
+    <p class="eyebrow">Made for one wrist</p>
+    <h2 class="huge">Commission a <em class="gold">one-of-one.</em></h2>
+    <p class="muted lead">Choose your metal, your stone, your charm. Add an engraving only you and the maker will know about. Six weeks from sketch to box.</p>
+    <a href="#order" class="btn btn-gold">Start your design</a>
+  </div>
+</section>
+
+<section id="order" class="section band">
+  <div class="container order-grid">
+    <div>
+      <p class="eyebrow">Place an order</p>
+      <h2>Tell us about <em class="gold">your piece.</em></h2>
+      <p class="muted">Whether commissioning a signature design or imagining something new, leave your details and a maker will reach out within 48 hours.</p>
+      <div class="contact muted small">
+        <p>atelier@aurea.studio</p>
+        <p>+39 055 0000 000</p>
+        <p>Via dei Fossi 14, Firenze</p>
+      </div>
+    </div>
+    <form id="orderForm" class="form">
+      <div class="row two">
+        <label>Full name<input name="name" required /></label>
+        <label>Email<input name="email" type="email" required /></label>
+      </div>
+      <div class="row three">
+        <label>Style
+          <select name="style"><option>Solstice</option><option>Ember</option><option>Eclipse</option><option>Custom</option></select>
+        </label>
+        <label>Material
+          <select name="material"><option>Gold</option><option>Rose Bronze</option><option>Obsidian</option><option>Silver</option></select>
+        </label>
+        <label>Size
+          <select name="size"><option>Small (15cm)</option><option>Medium (17cm)</option><option>Large (19cm)</option><option>Bespoke</option></select>
+        </label>
+      </div>
+      <label>Engraving (optional)<input name="engraving" placeholder="A name, a date, a line of poetry…" /></label>
+      <label>Notes for the maker<textarea name="notes" rows="4" placeholder="Describe your vision, occasion, or references…"></textarea></label>
+      <button type="submit" class="btn btn-gold full">Send commission request</button>
+      <p class="muted xs center">No payment collected now. Quote within 48h.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container foot">
+    <div class="logo">AU<span class="gold">RÉ</span>A</div>
+    <p class="muted small">© 2026 Auréa Maison. Forged in Florence.</p>
+    <div class="foot-links"><a href="#">Instagram</a><a href="#">Journal</a><a href="#">Care</a></div>
+  </div>
+</footer>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
